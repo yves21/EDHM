@@ -65,3 +65,19 @@ EDHM for Horizons 3.8 is no longer being developed as I don't have time to work 
 
 -------------------------------------------------------------------------
 [EDHM Discord](https://discord.gg/KTYgJegfYw)
+
+## EDHM Notepad
+
+Un petit éditeur de texte de type Notepad est disponible dans `apps/notepad.py`.
+
+### Prérequis
+
+- Python 3 avec le module Tkinter (généralement inclus avec les distributions standard).
+
+### Lancer l'application
+
+```bash
+python3 apps/notepad.py [chemin/vers/fichier.txt]
+```
+
+L'argument de fichier est optionnel. L'application permet de créer, ouvrir, modifier et enregistrer des fichiers texte simples.
